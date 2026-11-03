@@ -1,0 +1,27 @@
+{
+  "sourceCount": 6,
+  "resultCount": 3,
+  "eventCount": 7,
+  "guidanceCount": 3,
+  "checks": [
+    "all dates parse",
+    "all source references resolve",
+    "all cited pages within source page counts",
+    "each evidence quote <=25 words",
+    "SHA256 recorded for downloaded PDFs"
+  ],
+  "infosysCalculatedChanges": {
+    "revenue": {
+      "qoqPct": -2.0089,
+      "yoyPct": 7.916
+    },
+    "pbt": {
+      "qoqPct": -0.0724,
+      "yoyPct": -5.6348
+    },
+    "pat": {
+      "qoqPct": 3.1662,
+      "yoyPct": -11.7492
+    }
+  }
+}

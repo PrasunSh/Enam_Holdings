@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-27",
+  "mode": "historical-replay",
+  "notice": "Verified historical source fixtures. These are not live filings. Filing dates retain their original dates. Sources were inspected through the web reader; local binary retrieval status is recorded separately.",
+  "sources": [
+    {
+      "id": "infy-q3-fy25-call",
+      "symbol": "INFY",
+      "title": "Infosys Q3 FY25 earnings call",
+      "type": "transcript",
+      "publishedOn": "2025-01-16",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q3/documents/transcripts/earningscall.pdf",
+      "pages": 25,
+      "relevantPages": [
+        4,
+        7
+      ],
+      "evidenceQuote": "Our operating margin guidance remains unchanged at 20% to 22%.",
+      "evidenceSummary": "Management raised FY25 constant-currency revenue growth guidance to 4.5-5.0% while retaining its operating-margin range.",
+      "retrievalStatus": "web-reader-verified; direct-download-http-403",
+      "pullEligible": true
+    },
+    {
+      "id": "infy-q4-fy25-call",
+      "symbol": "INFY",
+      "title": "Infosys Q4 FY25 earnings call",
+      "type": "transcript",
+      "publishedOn": "2025-04-17",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/transcripts/earningscall.pdf",
+      "pages": 27,
+      "relevantPages": [
+        3,
+        4,
+        5
+      ],
+      "evidenceQuote": "Our revenues grew at 4.2% in constant currency terms. Our operating margin was 21.1%.",
+      "evidenceSummary": "Management reported FY25 growth and margin, and gave FY26 guidance of 0-3% constant-currency growth and 20-22% operating margin.",
+      "retrievalStatus": "web-reader-verified; direct-download-http-403",
+      "pullEligible": true
+    },
+    {
+      "id": "infy-q4-fy25-results",
+      "symbol": "INFY",
+      "title": "Infosys audited Q4 and FY25 financial results",
+      "type": "results",
+      "publishedOn": "2025-04-17",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/q4-and-12m-fy25-financial-results-auditorsreports.pdf",
+      "pages": 25,
+      "relevantPages": [
+        12,
+        13
+      ],
+      "evidenceQuote": "Revenue from operations",
+      "evidenceSummary": "Page 12 provides consolidated Ind AS results for March 2025, December 2024 and March 2024. Page 13 includes acquisitions, a proposed settlement and dividends.",
+      "retrievalStatus": "web-reader-verified",
+      "pullEligible": false
+    },
+    {
+      "id": "infy-q4-fy25-consolidated",
+      "symbol": "INFY",
+      "title": "Infosys consolidated Ind AS financial statements",
+      "type": "financial_statement",
+      "publishedOn": "2025-04-17",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/consolidated/consol-fy25-q4-and-12m-finstatement.pdf",
+      "pages": 39,
+      "relevantPages": [
+        3,
+        39
+      ],
+      "evidenceQuote": "Profit for the period",
+      "evidenceSummary": "Quarter and full-year consolidated figures provide an independent cross-check of the summary financial-results table.",
+      "retrievalStatus": "web-reader-verified",
+      "pullEligible": false
+    },
+    {
+      "id": "persistent-q4-fy26-results",
+      "symbol": "PERSISTENT",
+      "title": "Persistent Q4 and FY26 results release",
+      "type": "company_results_release",
+      "publishedOn": "2026-04-21",
+      "url": "https://www.persistent.com/wp-content/uploads/2026/04/press-release-q4fy26.pdf",
+      "pages": 4,
+      "relevantPages": [
+        1,
+        2
+      ],
+      "evidenceQuote": "Including one-time impact of New Labour Codes in Q3 FY26",
+      "evidenceSummary": "Quarterly revenue, EBIT, PBT and PAT are disclosed in INR million, with reported growth rates. The prior quarter includes a labour-code impact.",
+      "retrievalStatus": "downloaded-and-pdf-text-extracted",
+      "localFile": "raw/persistent-q4-fy26-results.pdf",
+      "pullEligible": false,
+      "sha256": "5bb71b8d1b006055c484e200268bc7a45dfaf5ee09f408e8a0b729584ed3e89e",
+      "bytes": 235415
+    },
+    {
+      "id": "polycab-q4-fy25-results",
+      "symbol": "POLYCAB",
+      "title": "Polycab Q4 and FY25 results release",
+      "type": "company_results_release",
+      "publishedOn": "2025-05-06",
+      "url": "https://cms.polycab.com/media/5vpnwedq/press-release-q4fy25.pdf",
+      "pages": 5,
+      "relevantPages": [
+        1,
+        2,
+        3
+      ],
+      "evidenceQuote": "EBITDA margins improved ~110 bps YoY to 14.7%",
+      "evidenceSummary": "Reported quarterly revenue, EBITDA and PAT increased; the FMEG business reached quarterly profitability. PBT is not provided in this release.",
+      "retrievalStatus": "downloaded-and-pdf-text-extracted",
+      "localFile": "raw/polycab-q4-fy25-results.pdf",
+      "pullEligible": false,
+      "sha256": "7a0313f5d09ac66fec48ad02b68df3d97c80ea3caf5aad213f4c1c2f23ffeaaf",
+      "bytes": 230239
+    }
+  ],
+  "results": [
+    {
+      "id": "infy-q4fy25",
+      "symbol": "INFY",
+      "company": "Infosys",
+      "sourceId": "infy-q4-fy25-results",
+      "page": 12,
+      "period": "Q4 FY25",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-03-31",
+      "previousPeriod": "Q3 FY25",
+      "previousYearPeriod": "Q4 FY24",
+      "basis": "Consolidated Ind AS",
+      "currency": "INR",
+      "unit": "crore",
+      "metrics": [
+        {
+          "key": "revenue",
+          "label": "Revenue",
+          "rawLabel": "Revenue from operations",
+          "value": 40925,
+          "previousQuarter": 41764,
+          "previousYear": 37923,
+          "status": "reported"
+        },
+        {
+          "key": "ebitda",
+          "label": "EBITDA",
+          "value": null,
+          "previousQuarter": null,
+          "previousYear": null,
+          "status": "not-reported",
+          "note": "Not directly reported in this summary. Do not label operating profit or PBT plus depreciation as reported EBITDA."
+        },
+        {
+          "key": "pbt",
+          "label": "PBT",
+          "rawLabel": "Profit before tax",
+          "value": 9663,
+          "previousQuarter": 9670,
+          "previousYear": 10240,
+          "status": "reported"
+        },
+        {
+          "key": "pat",
+          "label": "PAT",
+          "rawLabel": "Profit for the period",
+          "value": 7038,
+          "previousQuarter": 6822,
+          "previousYear": 7975,
+          "status": "reported",
+          "note": "Total consolidated profit, including non-controlling interests. Owner-attributable profit is separately reported as 7033, 6806 and 7969."
+        }
+      ],
+      "context": [
+        "Revenue increased year on year while total consolidated profit decreased. This does not by itself establish deteriorating core operations.",
+        "Page 13 reports interest on income-tax refunds of INR 328 crore this quarter versus INR 1916 crore in Q4 FY24; the prior-year comparison has a significant other-income difference.",
+        "Page 12 notes INR 188 crore of impairment within depreciation and amortisation for the current quarter."
+      ]
+    },
+    {
+      "id": "persistent-q4fy26",
+      "symbol": "PERSISTENT",
+      "company": "Persistent Systems",
+      "sourceId": "persistent-q4-fy26-results",
+      "page": 1,
+      "period": "Q4 FY26",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-03-31",
+      "basis": "Consolidated; company results release",
+      "currency": "INR",
+      "unit": "million",
+      "normalisationToCrore": 0.1,
+      "metrics": [
+        {
+          "key": "revenue",
+          "label": "Revenue",
+          "value": 40559.4,
+          "reportedQoqPct": 7.4,
+          "reportedYoyPct": 25.1,
+          "status": "reported"
+        },
+        {
+          "key": "ebitda",
+          "label": "EBITDA",
+          "value": null,
+          "status": "not-reported",
+          "note": "This source reports EBIT, not EBITDA."
+        },
+        {
+          "key": "ebit",
+          "label": "EBIT",
+          "value": 6591.6,
+          "reportedQoqPct": 21.4,
+          "reportedYoyPct": 30.5,
+          "status": "reported"
+        },
+        {
+          "key": "pbt",
+          "label": "PBT",
+          "value": 6739.8,
+          "reportedQoqPct": 19.3,
+          "reportedYoyPct": 33.4,
+          "status": "reported"
+        },
+        {
+          "key": "pat",
+          "label": "PAT",
+          "value": 5292.6,
+          "reportedQoqPct": 20.4,
+          "reportedYoyPct": 33.7,
+          "status": "reported"
+        }
+      ],
+      "context": [
+        "Growth percentages are company-reported and rounded. Do not reverse-engineer exact prior-period values from them.",
+        "Q3 FY26 included a one-time labour-code impact, affecting sequential EBIT/PAT comparability."
+      ]
+    },
+    {
+      "id": "polycab-q4fy25",
+      "symbol": "POLYCAB",
+      "company": "Polycab India",
+      "sourceId": "polycab-q4-fy25-results",
+      "page": 1,
+      "period": "Q4 FY25",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-03-31",
+      "basis": "Company results release; consolidated revenue referenced in report",
+      "currency": "INR",
+      "unit": "million",
+      "normalisationToCrore": 0.1,
+      "metrics": [
+        {
+          "key": "revenue",
+          "label": "Revenue",
+          "value": 69858,
+          "reportedYoyPct": 25,
+          "status": "reported"
+        },
+        {
+          "key": "ebitda",
+          "label": "EBITDA",
+          "value": 10254,
+          "reportedYoyPct": 35,
+          "status": "reported"
+        },
+        {
+          "key": "pbt",
+          "label": "PBT",
+          "value": null,
+          "status": "not-reported"
+        },
+        {
+          "key": "pat",
+          "label": "PAT",
+          "value": 7344,
+          "reportedYoyPct": 33,
+          "reportedQoqPct": 58,
+          "status": "reported",
+          "qoqSourcePage": 2
+        }
+      ],
+      "context": [
+        "Quarterly EBITDA margin was 14.7%, approximately 110 basis points higher year on year.",
+        "The release describes FMEG achieving break-even and its first profitable quarter following ten quarters of investment. Do not infer an exact segment profit absent its statement."
+      ]
+    }
+  ],
+  "guidance": [
+    {
+      "id": "infy-fy25-revenue-guidance",
+      "symbol": "INFY",
+      "metric": "Revenue growth",
+      "basis": "Constant currency, full fiscal year",
+      "unit": "percent",
+      "targetPeriod": "FY25",
+      "targetPeriodStart": "2024-04-01",
+      "targetPeriodEnd": "2025-03-31",
+      "statementDate": "2025-01-16",
+      "speaker": "Salil Parekh",
+      "role": "CEO and Managing Director",
+      "lower": 4.5,
+      "upper": 5,
+      "sourceId": "infy-q3-fy25-call",
+      "page": 4,
+      "actual": 4.2,
+      "actualPublishedOn": "2025-04-17",
+      "actualSourceId": "infy-q4-fy25-call",
+      "actualPage": 3,
+      "comparison": "below-range",
+      "distanceToLowerBoundPercentagePoints": -0.3,
+      "interpretation": "Full-year constant-currency revenue growth finished 0.3 percentage points below the January lower bound."
+    },
+    {
+      "id": "infy-fy25-margin-guidance",
+      "symbol": "INFY",
+      "metric": "Operating margin",
+      "basis": "Full fiscal year",
+      "unit": "percent",
+      "targetPeriod": "FY25",
+      "targetPeriodStart": "2024-04-01",
+      "targetPeriodEnd": "2025-03-31",
+      "statementDate": "2025-01-16",
+      "speaker": "Salil Parekh",
+      "role": "CEO and Managing Director",
+      "lower": 20,
+      "upper": 22,
+      "sourceId": "infy-q3-fy25-call",
+      "page": 4,
+      "actual": 21.1,
+      "actualPublishedOn": "2025-04-17",
+      "actualSourceId": "infy-q4-fy25-call",
+      "actualPage": 3,
+      "comparison": "within-range",
+      "interpretation": "Full-year operating margin finished within the guided range."
+    },
+    {
+      "id": "infy-fy26-initial-growth",
+      "symbol": "INFY",
+      "metric": "Revenue growth",
+      "basis": "Constant currency, full fiscal year",
+      "unit": "percent",
+      "targetPeriod": "FY26",
+      "targetPeriodStart": "2025-04-01",
+      "targetPeriodEnd": "2026-03-31",
+      "statementDate": "2025-04-17",
+      "speaker": "Salil Parekh",
+      "role": "CEO and Managing Director",
+      "lower": 0,
+      "upper": 3,
+      "sourceId": "infy-q4-fy25-call",
+      "page": 4,
+      "actual": null,
+      "comparison": "no-outcome-in-selected-corpus",
+      "interpretation": "Initial FY26 guidance. The selected historical corpus contains no comparable FY26 full-year actual; do not treat as pending in current time without checking later documents."
+    }
+  ],
+  "events": [
+    {
+      "id": "infy-q4fy25-results",
+      "symbol": "INFY",
+      "category": "results",
+      "priority": "review",
+      "publishedOn": "2025-04-17",
+      "title": "Revenue rises; profit comparison needs context",
+      "summary": "Q4 FY25 consolidated revenue was INR 40925 crore; total PAT was INR 7038 crore. Tax-refund interest differed materially from the prior year.",
+      "sourceId": "infy-q4-fy25-results",
+      "page": 12,
+      "relatedPages": [
+        13
+      ],
+      "resultId": "infy-q4fy25"
+    },
+    {
+      "id": "infy-mre-acquisition-proposed",
+      "symbol": "INFY",
+      "category": "M&A",
+      "priority": "track",
+      "publishedOn": "2025-04-17",
+      "eventDate": "2025-04-17",
+      "title": "MRE Consulting acquisition agreed",
+      "summary": "A subsidiary agreed to acquire MRE Consulting for up to USD 36 million including earn-outs, excluding management incentives and retention bonuses. This historical disclosure is an agreement, not completion.",
+      "sourceId": "infy-q4-fy25-results",
+      "page": 13
+    },
+    {
+      "id": "infy-mccamish-proposed-settlement",
+      "symbol": "INFY",
+      "category": "litigation",
+      "priority": "review",
+      "publishedOn": "2025-04-17",
+      "eventDate": "2025-03-13",
+      "title": "McCamish settlement proposal remains subject to approval",
+      "summary": "McCamish reached an in-principle class-action settlement for USD 17.5 million, subject to finalisation and court approval, without admission of liability. The filing records USD 17 million of insurance reimbursement receivable.",
+      "sourceId": "infy-q4-fy25-results",
+      "page": 13
+    },
+    {
+      "id": "infy-fy25-final-dividend",
+      "symbol": "INFY",
+      "category": "dividend",
+      "priority": "track",
+      "publishedOn": "2025-04-17",
+      "title": "INR 22 final dividend recommended",
+      "summary": "The board recommended INR 22 per share for FY25, subject to shareholder approval. The filing specified 30 May 2025 as record date.",
+      "sourceId": "infy-q4-fy25-results",
+      "page": 13
+    },
+    {
+      "id": "infy-rsu-grant",
+      "symbol": "INFY",
+      "category": "routine",
+      "priority": "routine",
+      "publishedOn": "2025-04-17",
+      "title": "Employee stock-unit grant approved",
+      "summary": "The board approved 5000 RSUs for eligible employees under the 2015 Plan, effective 2 May 2025 and vesting over four years.",
+      "sourceId": "infy-q4-fy25-results",
+      "page": 13
+    },
+    {
+      "id": "polycab-q4fy25-results",
+      "symbol": "POLYCAB",
+      "category": "results",
+      "priority": "review",
+      "publishedOn": "2025-05-06",
+      "title": "Quarterly EBITDA outpaces revenue growth",
+      "summary": "Q4 FY25 revenue increased 25% and EBITDA increased 35% year on year. The company reported 14.7% EBITDA margin and a turnaround in FMEG quarterly profitability.",
+      "sourceId": "polycab-q4-fy25-results",
+      "page": 1,
+      "relatedPages": [
+        2
+      ],
+      "resultId": "polycab-q4fy25"
+    },
+    {
+      "id": "persistent-q4fy26-results",
+      "symbol": "PERSISTENT",
+      "category": "results",
+      "priority": "review",
+      "publishedOn": "2026-04-21",
+      "title": "Growth continues; sequential margins have a base effect",
+      "summary": "Q4 FY26 INR revenue increased 25.1% year on year. Sequential profit growth follows a quarter affected by the new labour codes; the release explicitly flags that comparison.",
+      "sourceId": "persistent-q4-fy26-results",
+      "page": 1,
+      "resultId": "persistent-q4fy26"
+    }
+  ],
+  "limitations": [
+    "Three companies have verified historical results fixtures; only Infosys has transcript-grounded guidance in this fixture set.",
+    "Several Infosys insight cards derive from one filing and must not be counted as distinct exchange filings.",
+    "No data here establishes a live 24-hour feed, latest prices or latest quarter.",
+    "No incoming-management biography was researched; the material governance-related event is the proposed McCamish litigation settlement.",
+    "Do not reconstruct exact prior-quarter values from rounded reported growth rates.",
+    "Primary company press releases are eligible for push enrichment, not for the stricter annual-report/transcript-only pull corpus."
+  ]
+}

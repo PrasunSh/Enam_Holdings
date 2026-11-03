@@ -1,0 +1,53 @@
+# Local work, deployment copies, and export output
+/tmp/
+/public-github/
+/work/
+**/.agents/
+**/.codex/
+**/.sites-runtime/
+**/.wrangler/
+
+# Dependencies and generated builds
+**/node_modules/
+**/.pnp
+**/.pnp.*
+**/dist/
+**/.next/
+**/.vinext/
+**/out/
+**/coverage/
+**/next-env.d.ts
+*.tsbuildinfo
+
+# Credentials and local settings; examples may contain placeholders only
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials*.json
+service-account*.json
+**/.aws/
+**/.ssh/
+**/.npmrc.local
+
+# Publication archives and non-source binary documents
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.pdf
+
+# Logs, editor state, and OS files
+*.log
+**/.vscode/
+**/.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
